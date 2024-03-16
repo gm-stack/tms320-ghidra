@@ -1937,7 +1937,10 @@
 
 :ldi direct_addr, reg_16_20 is top11=0x41 & direct_addr & reg_16_20 {
     
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2046,7 +2049,10 @@
 
 :ldiu direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x0 {
     
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2054,7 +2060,10 @@
 
 :ldilo direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x1 {
     if (!c) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2062,7 +2071,10 @@
 
 :ldils direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x2 {
     if (!c & !z) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2070,7 +2082,10 @@
 
 :ldihi direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x3 {
     if (c | z) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2078,7 +2093,10 @@
 
 :ldihs direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x4 {
     if (c) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2086,7 +2104,10 @@
 
 :ldieq direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x5 {
     if (!z) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2094,7 +2115,10 @@
 
 :ldine direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x6 {
     if (z) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2102,7 +2126,10 @@
 
 :ldilt direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x7 {
     if (!n) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2110,7 +2137,10 @@
 
 :ldile direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x8 {
     if (!n & !z) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2118,7 +2148,10 @@
 
 :ldigt direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x9 {
     if (n | z) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2126,7 +2159,10 @@
 
 :ldige direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0xa {
     if (n) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2134,7 +2170,10 @@
 
 :ldiunknown direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0xb {
     
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2142,7 +2181,10 @@
 
 :ldinv direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0xc {
     if (v) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2150,7 +2192,10 @@
 
 :ldiv direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0xd {
     if (!v) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2158,7 +2203,10 @@
 
 :ldinuf direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0xe {
     if (uf) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2166,7 +2214,10 @@
 
 :ldiuf direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0xf {
     if (!uf) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2174,7 +2225,10 @@
 
 :ldinlv direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x10 {
     if (lv) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2182,7 +2236,10 @@
 
 :ldilv direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x11 {
     if (!lv) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2190,7 +2247,10 @@
 
 :ldinluf direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x12 {
     if (luf) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2198,7 +2258,10 @@
 
 :ldiluf direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x13 {
     if (!luf) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
@@ -2206,7 +2269,10 @@
 
 :ldizuf direct_addr, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_addr & reg_16_20 & cond_23_27=0x14 {
     if (!z & !uf) goto inst_next;    
-        reg_16_20 = *(direct_addr);
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = (direct_addr) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        reg_16_20 = *(address);
 
         
         
