@@ -1,0 +1,132 @@
+define endian=little;
+
+define alignment=1;
+
+define space ram type=ram_space size=4 default;
+
+define space register type=register_space size=4;
+
+define register offset=0x0 size=5 [
+    R0 R1 R2 R3 R4 R5 R6 R7
+];
+
+define register offset=0x0 size=4 R0.i;
+
+define register offset=0x5 size=4 R1.i;
+
+define register offset=0xA size=4 R2.i;
+
+define register offset=0xF size=4 R3.i;
+
+define register offset=0x14 size=4 R4.i;
+
+define register offset=0x19 size=4 R5.i;
+
+define register offset=0x1E size=4 R6.i;
+
+define register offset=0x23 size=4 R7.i;
+
+define register offset=0x100 size=4 [
+    AR0 AR1 AR2 AR3 AR4 AR5 AR6 AR7
+];
+
+define register offset=0x200 size=4 [
+    DP IR0 IR1 BK SP IE IF RS RE RC PC IR ST IOF
+];
+
+define bitrange 
+    prgw=ST[15,1]
+    intc=ST[14,1]
+    gie=ST[13,1]
+    cc=ST[12,1]
+    ce=ST[11,1]
+    cf=ST[10,1]
+    rm=ST[8,1]
+    ovm=ST[7,1]
+    luf=ST[6,1]
+    lv=ST[5,1]
+    uf=ST[4,1]
+    n=ST[3,1]
+    z=ST[2,1]
+    v=ST[1,1]
+    c=ST[0,1];
+
+define token instr(32)
+    whole=(0,31)
+    top3=(29,31)
+    top11=(21,31)
+    top7=(25,31)
+    top4=(28,31)
+    top8=(24,31)
+    top16=(16,31)
+    bit21=(21,21)
+    bits21and22=(21,22)
+    opcode=(23,28)
+    g=(21,22)
+    cond_16_20=(16,20)
+    cond_23_27=(23,27)
+    dst=(16,20)
+    hi_reg=(8,15)
+    src=(0,15)
+    indirect_0_15=(0,15)
+    directLDP_0_15=(0,15)
+    direct_0_15=(0,15)
+    addr_reg_22_24=(22,24)
+    abs_uint_0_23=(0,23)
+    indir_0_7=(0,7)
+    reg_0_7=(0,4)
+    reg_to11_0_7=(0,4)
+    shortfloat_immed_0_7=(0,7)
+    reg_8_15=(8,12)
+    reg_to11_8_15=(8,12)
+    reg_to7_16_18=(16,18)
+    indir_no_disp_0_7=(0,7)
+    indir_enh_0_7=(0,7)
+    indir_no_disp_8_15=(8,15)
+    indir_no_disp_enh=(8,15)
+    reg_19_21=(19,21)
+    reg_22_24=(22,24)
+    reg_2_or_3_22=(22,22)
+    reg_0_or_1_23=(23,23)
+    indir_8_15=(8,15)
+    pc_rel_disp_0_15=(0,15) signed
+    reg_0_15=(0,4)
+    reg_to11_0_15=(0,4)
+    reg_16_20=(16,20)
+    reg_to11_16_20=(16,20)
+    short_int_immed_0_15=(0,15) signed
+    uint_0_15=(0,15)
+    vect_0_4=(0,4)
+    indirect_long_disp=(0,7)
+    indirect_long_aregno=(8,10)
+    indirect_long_modn=(11,15)
+    reg_16_18=(16,18);
+
+attach variables [ addr_reg_22_24 reg_to7_16_18 reg_19_21 reg_22_24 ] [
+    R0 R1 R2 R3 R4 R5 R6 R7
+];
+
+attach variables [ indirect_long_aregno ] [
+    AR0 AR1 AR2 AR3 AR4 AR5 AR6 AR7
+];
+
+attach variables [ reg_0_7 reg_to11_0_7 reg_to11_0_15 reg_0_15 reg_to11_16_20 reg_16_20 reg_8_15 reg_to11_8_15 ] [
+    R0.i R1.i R2.i R3.i R4.i R5.i R6.i R7.i
+    AR0 AR1 AR2 AR3 AR4 AR5 AR6 AR7
+    DP IR0 IR1 BK SP ST IE IF
+    IOF RS RE RC _ _ _ _
+];
+
+attach variables [ reg_2_or_3_22 ] [
+    R2 R3
+];
+
+attach variables [ reg_0_or_1_23 ] [
+    R0 R1
+];
+
+prel15: rel is pc_rel_disp_0_15 [ rel=inst_next + (pc_rel_disp_0_15 * 4); ] {
+    export *[ram]:4 rel;
+}
+
+@include "tms-autogen-edited.sinc"

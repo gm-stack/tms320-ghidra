@@ -1,0 +1,3136 @@
+
+:absf reg_to11_0_15, reg_to11_16_20 is top11=0x0 & reg_to11_0_15 & reg_to11_16_20 {
+
+}
+
+:absf direct_0_15, reg_to11_16_20 is top11=0x1 & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:absf indirect_0_15, reg_to11_16_20 is top11=0x2 & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:absf shortfloat_immed_0_7, reg_to11_16_20 is top11=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 {
+
+}
+
+:absf_stf indir_enh_0_7, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x64 & indir_enh_0_7 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:absi reg_0_15, reg_16_20 is top11=0x4 & reg_0_15 & reg_16_20 {
+
+}
+
+:absi direct_0_15, reg_16_20 is top11=0x5 & direct_0_15 & reg_16_20 {
+
+}
+
+:absi indirect_0_15, reg_16_20 is top11=0x6 & indirect_0_15 & reg_16_20 {
+
+}
+
+:absi short_int_immed_0_15, reg_16_20 is top11=0x7 & short_int_immed_0_15 & reg_16_20 {
+
+}
+
+:absi_sti indir_enh_0_7, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x65 & indir_enh_0_7 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:addc reg_0_15, reg_16_20 is top11=0x8 & reg_0_15 & reg_16_20 {
+
+}
+
+:addc direct_0_15, reg_16_20 is top11=0x9 & direct_0_15 & reg_16_20 {
+
+}
+
+:addc indirect_0_15, reg_16_20 is top11=0xa & indirect_0_15 & reg_16_20 {
+
+}
+
+:addc short_int_immed_0_15, reg_16_20 is top11=0xb & short_int_immed_0_15 & reg_16_20 {
+
+}
+
+:addc reg_0_7, reg_8_15, reg_16_20 is top11=0x100 & reg_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:addc reg_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x101 & reg_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:addc indir_no_disp_0_7, reg_8_15, reg_16_20 is top11=0x102 & indir_no_disp_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:addc indir_no_disp_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x103 & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:addf reg_to11_0_15, reg_to11_16_20 is top11=0xc & reg_to11_0_15 & reg_to11_16_20 {
+
+}
+
+:addf direct_0_15, reg_to11_16_20 is top11=0xd & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:addf indirect_0_15, reg_to11_16_20 is top11=0xe & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:addf shortfloat_immed_0_7, reg_to11_16_20 is top11=0xf & shortfloat_immed_0_7 & reg_to11_16_20 {
+
+}
+
+:addf reg_to11_0_7, reg_to11_8_15, reg_to11_16_20 is top11=0x104 & reg_to11_0_7 & reg_to11_8_15 & reg_to11_16_20 {
+
+}
+
+:addf reg_to11_0_7, indir_no_disp_8_15, reg_to11_16_20 is top11=0x105 & reg_to11_0_7 & indir_no_disp_8_15 & reg_to11_16_20 {
+
+}
+
+:addf indir_no_disp_0_7, reg_to11_8_15, reg_to11_16_20 is top11=0x106 & indir_no_disp_0_7 & reg_to11_8_15 & reg_to11_16_20 {
+
+}
+
+:addf indir_no_disp_0_7, indir_no_disp_8_15, reg_to11_16_20 is top11=0x107 & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_to11_16_20 {
+
+}
+
+:addf_stf indir_enh_0_7, reg_19_21, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x66 & indir_enh_0_7 & reg_19_21 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:addi reg_0_15, reg_16_20 is top11=0x10 & reg_0_15 & reg_16_20 {
+
+}
+
+:addi direct_0_15, reg_16_20 is top11=0x11 & direct_0_15 & reg_16_20 {
+
+}
+
+:addi indirect_0_15, reg_16_20 is top11=0x12 & indirect_0_15 & reg_16_20 {
+
+}
+
+:addi short_int_immed_0_15, reg_16_20 is top11=0x13 & short_int_immed_0_15 & reg_16_20 {
+
+}
+
+:addi reg_0_7, reg_8_15, reg_16_20 is top11=0x108 & reg_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:addi reg_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x109 & reg_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:addi indir_no_disp_0_7, reg_8_15, reg_16_20 is top11=0x10a & indir_no_disp_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:addi indir_no_disp_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x10b & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:addi_sti indir_enh_0_7, reg_19_21, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x67 & indir_enh_0_7 & reg_19_21 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:and reg_0_15, reg_16_20 is top11=0x14 & reg_0_15 & reg_16_20 {
+    reg_16_20 = reg_16_20 & reg_0_15;
+}
+
+:and direct_0_15, reg_16_20 is top11=0x15 & direct_0_15 & reg_16_20 {
+    reg_16_20 = reg_16_20 & direct_0_15;
+}
+
+:and indirect_0_15, reg_16_20 is top11=0x16 & indirect_0_15 & reg_16_20 {
+
+}
+
+:and uint_0_15, reg_16_20 is top11=0x17 & uint_0_15 & reg_16_20 {
+    reg_16_20 = reg_16_20 & uint_0_15;
+}
+
+:and reg_0_7, reg_8_15, reg_16_20 is top11=0x10c & reg_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:and reg_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x10d & reg_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:and indir_no_disp_0_7, reg_8_15, reg_16_20 is top11=0x10e & indir_no_disp_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:and indir_no_disp_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x10f & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:and_sti indir_enh_0_7, reg_19_21, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x68 & indir_enh_0_7 & reg_19_21 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:andn reg_0_15, reg_16_20 is top11=0x18 & reg_0_15 & reg_16_20 {
+
+}
+
+:andn direct_0_15, reg_16_20 is top11=0x19 & direct_0_15 & reg_16_20 {
+
+}
+
+:andn indirect_0_15, reg_16_20 is top11=0x1a & indirect_0_15 & reg_16_20 {
+
+}
+
+:andn uint_0_15, reg_16_20 is top11=0x1b & uint_0_15 & reg_16_20 {
+
+}
+
+:andn reg_0_7, reg_8_15, reg_16_20 is top11=0x110 & reg_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:andn reg_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x111 & reg_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:andn indir_no_disp_0_7, reg_8_15, reg_16_20 is top11=0x112 & indir_no_disp_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:andn indir_no_disp_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x113 & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:ash reg_0_15, reg_16_20 is top11=0x1c & reg_0_15 & reg_16_20 {
+
+}
+
+:ash direct_0_15, reg_16_20 is top11=0x1d & direct_0_15 & reg_16_20 {
+
+}
+
+:ash indirect_0_15, reg_16_20 is top11=0x1e & indirect_0_15 & reg_16_20 {
+
+}
+
+:ash short_int_immed_0_15, reg_16_20 is top11=0x1f & short_int_immed_0_15 & reg_16_20 {
+
+}
+
+:ash reg_0_7, reg_8_15, reg_16_20 is top11=0x114 & reg_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:ash reg_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x115 & reg_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:ash indir_no_disp_0_7, reg_8_15, reg_16_20 is top11=0x116 & indir_no_disp_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:ash indir_no_disp_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x117 & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:ash_sti reg_19_21, indir_enh_0_7, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x69 & reg_19_21 & indir_enh_0_7 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:bu reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x0 {
+
+}
+
+:blo reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x1 {
+
+}
+
+:bls reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x2 {
+
+}
+
+:bhi reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x3 {
+
+}
+
+:bhs reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x4 {
+
+}
+
+:beq reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x5 {
+
+}
+
+:bne reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x6 {
+
+}
+
+:blt reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x7 {
+
+}
+
+:ble reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x8 {
+
+}
+
+:bgt reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x9 {
+
+}
+
+:bge reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0xa {
+
+}
+
+:bnv reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0xc {
+
+}
+
+:bv reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0xd {
+
+}
+
+:bnuf reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0xe {
+
+}
+
+:buf reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0xf {
+
+}
+
+:bnlv reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x10 {
+
+}
+
+:blv reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x11 {
+
+}
+
+:bnluf reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x12 {
+
+}
+
+:bluf reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x13 {
+
+}
+
+:bzuf reg_0_15 is top11=0x340 & reg_0_15 & cond_16_20=0x14 {
+
+}
+
+:bu prel15 is top11=0x350 & prel15 & cond_16_20=0x0 {
+    goto prel15;
+}
+
+:blo prel15 is top11=0x350 & prel15 & cond_16_20=0x1 {
+    if (c) goto prel15;
+}
+
+:bls prel15 is top11=0x350 & prel15 & cond_16_20=0x2 {
+    if (c | z) goto prel15;
+}
+
+:bhi prel15 is top11=0x350 & prel15 & cond_16_20=0x3 {
+    if (!c & !z) goto prel15;
+}
+
+:bhs prel15 is top11=0x350 & prel15 & cond_16_20=0x4 {
+    if (!c) goto prel15;
+}
+
+:beq prel15 is top11=0x350 & prel15 & cond_16_20=0x5 {
+    if (z) goto prel15;
+}
+
+:bne prel15 is top11=0x350 & prel15 & cond_16_20=0x6 {
+    if (!z) goto prel15;
+}
+
+:blt prel15 is top11=0x350 & prel15 & cond_16_20=0x7 {
+    if (n) goto prel15;
+}
+
+:ble prel15 is top11=0x350 & prel15 & cond_16_20=0x8 {
+    if (n | z) goto prel15;
+}
+
+:bgt prel15 is top11=0x350 & prel15 & cond_16_20=0x9 {
+    if (!n & !z) goto prel15;
+}
+
+:bge prel15 is top11=0x350 & prel15 & cond_16_20=0xa {
+    if (!n) goto prel15;
+}
+
+:bnv prel15 is top11=0x350 & prel15 & cond_16_20=0xc {
+    if (!v) goto prel15;
+}
+
+:bv prel15 is top11=0x350 & prel15 & cond_16_20=0xd {
+    if (v) goto prel15;
+}
+
+:bnuf prel15 is top11=0x350 & prel15 & cond_16_20=0xe {
+    if (!uf) goto prel15;
+}
+
+:buf prel15 is top11=0x350 & prel15 & cond_16_20=0xf {
+    if (uf) goto prel15;
+}
+
+:bnlv prel15 is top11=0x350 & prel15 & cond_16_20=0x10 {
+    if (!lv) goto prel15;
+}
+
+:blv prel15 is top11=0x350 & prel15 & cond_16_20=0x11 {
+    if (lv) goto prel15;
+}
+
+:bnluf prel15 is top11=0x350 & prel15 & cond_16_20=0x12 {
+    if (!luf) goto prel15;
+}
+
+:bluf prel15 is top11=0x350 & prel15 & cond_16_20=0x13 {
+    if (luf) goto prel15;
+}
+
+:bzuf prel15 is top11=0x350 & prel15 & cond_16_20=0x14 {
+    if (z | uf) goto prel15;
+}
+
+:bud reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x0 {
+
+}
+
+:blod reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x1 {
+
+}
+
+:blsd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x2 {
+
+}
+
+:bhid reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x3 {
+
+}
+
+:bhsd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x4 {
+
+}
+
+:beqd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x5 {
+
+}
+
+:bned reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x6 {
+
+}
+
+:bltd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x7 {
+
+}
+
+:bled reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x8 {
+
+}
+
+:bgtd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x9 {
+
+}
+
+:bged reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0xa {
+
+}
+
+:bnvd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0xc {
+
+}
+
+:bvd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0xd {
+
+}
+
+:bnufd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0xe {
+
+}
+
+:bufd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0xf {
+
+}
+
+:bnlvd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x10 {
+
+}
+
+:blvd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x11 {
+
+}
+
+:bnlufd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x12 {
+
+}
+
+:blufd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x13 {
+
+}
+
+:bzufd reg_0_15 is top11=0x341 & reg_0_15 & cond_16_20=0x14 {
+
+}
+
+:bud prel15 is top11=0x351 & prel15 & cond_16_20=0x0 {
+
+}
+
+:blod prel15 is top11=0x351 & prel15 & cond_16_20=0x1 {
+
+}
+
+:blsd prel15 is top11=0x351 & prel15 & cond_16_20=0x2 {
+
+}
+
+:bhid prel15 is top11=0x351 & prel15 & cond_16_20=0x3 {
+
+}
+
+:bhsd prel15 is top11=0x351 & prel15 & cond_16_20=0x4 {
+
+}
+
+:beqd prel15 is top11=0x351 & prel15 & cond_16_20=0x5 {
+
+}
+
+:bned prel15 is top11=0x351 & prel15 & cond_16_20=0x6 {
+
+}
+
+:bltd prel15 is top11=0x351 & prel15 & cond_16_20=0x7 {
+
+}
+
+:bled prel15 is top11=0x351 & prel15 & cond_16_20=0x8 {
+
+}
+
+:bgtd prel15 is top11=0x351 & prel15 & cond_16_20=0x9 {
+
+}
+
+:bged prel15 is top11=0x351 & prel15 & cond_16_20=0xa {
+
+}
+
+:bnvd prel15 is top11=0x351 & prel15 & cond_16_20=0xc {
+
+}
+
+:bvd prel15 is top11=0x351 & prel15 & cond_16_20=0xd {
+
+}
+
+:bnufd prel15 is top11=0x351 & prel15 & cond_16_20=0xe {
+
+}
+
+:bufd prel15 is top11=0x351 & prel15 & cond_16_20=0xf {
+
+}
+
+:bnlvd prel15 is top11=0x351 & prel15 & cond_16_20=0x10 {
+
+}
+
+:blvd prel15 is top11=0x351 & prel15 & cond_16_20=0x11 {
+
+}
+
+:bnlufd prel15 is top11=0x351 & prel15 & cond_16_20=0x12 {
+
+}
+
+:blufd prel15 is top11=0x351 & prel15 & cond_16_20=0x13 {
+
+}
+
+:bzufd prel15 is top11=0x351 & prel15 & cond_16_20=0x14 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x0 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x1 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x2 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x3 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x4 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x5 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x6 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x7 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x8 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x9 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0xa {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0xc {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0xd {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0xe {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0xf {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x10 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x11 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x12 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x13 {
+
+}
+
+:br abs_uint_0_23 is top8=0x60 & abs_uint_0_23 & cond_16_20=0x14 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x0 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x1 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x2 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x3 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x4 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x5 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x6 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x7 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x8 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x9 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0xa {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0xc {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0xd {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0xe {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0xf {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x10 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x11 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x12 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x13 {
+
+}
+
+:brd abs_uint_0_23 is top8=0x61 & abs_uint_0_23 & cond_16_20=0x14 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x0 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x1 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x2 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x3 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x4 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x5 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x6 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x7 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x8 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x9 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0xa {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0xc {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0xd {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0xe {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0xf {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x10 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x11 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x12 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x13 {
+
+}
+
+:call abs_uint_0_23 is top8=0x62 & abs_uint_0_23 & cond_16_20=0x14 {
+
+}
+
+:callu reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x0 {
+
+}
+
+:calllo reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x1 {
+
+}
+
+:callls reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x2 {
+
+}
+
+:callhi reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x3 {
+
+}
+
+:callhs reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x4 {
+
+}
+
+:calleq reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x5 {
+
+}
+
+:callne reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x6 {
+
+}
+
+:calllt reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x7 {
+
+}
+
+:callle reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x8 {
+
+}
+
+:callgt reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x9 {
+
+}
+
+:callge reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0xa {
+
+}
+
+:callnv reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0xc {
+
+}
+
+:callv reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0xd {
+
+}
+
+:callnuf reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0xe {
+
+}
+
+:calluf reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0xf {
+
+}
+
+:callnlv reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x10 {
+
+}
+
+:calllv reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x11 {
+
+}
+
+:callnluf reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x12 {
+
+}
+
+:callluf reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x13 {
+
+}
+
+:callzuf reg_0_15 is top11=0x380 & reg_0_15 & cond_16_20=0x14 {
+
+}
+
+:callu prel15 is top11=0x390 & prel15 & cond_16_20=0x0 {
+
+}
+
+:calllo prel15 is top11=0x390 & prel15 & cond_16_20=0x1 {
+
+}
+
+:callls prel15 is top11=0x390 & prel15 & cond_16_20=0x2 {
+
+}
+
+:callhi prel15 is top11=0x390 & prel15 & cond_16_20=0x3 {
+
+}
+
+:callhs prel15 is top11=0x390 & prel15 & cond_16_20=0x4 {
+
+}
+
+:calleq prel15 is top11=0x390 & prel15 & cond_16_20=0x5 {
+
+}
+
+:callne prel15 is top11=0x390 & prel15 & cond_16_20=0x6 {
+
+}
+
+:calllt prel15 is top11=0x390 & prel15 & cond_16_20=0x7 {
+
+}
+
+:callle prel15 is top11=0x390 & prel15 & cond_16_20=0x8 {
+
+}
+
+:callgt prel15 is top11=0x390 & prel15 & cond_16_20=0x9 {
+
+}
+
+:callge prel15 is top11=0x390 & prel15 & cond_16_20=0xa {
+
+}
+
+:callnv prel15 is top11=0x390 & prel15 & cond_16_20=0xc {
+
+}
+
+:callv prel15 is top11=0x390 & prel15 & cond_16_20=0xd {
+
+}
+
+:callnuf prel15 is top11=0x390 & prel15 & cond_16_20=0xe {
+
+}
+
+:calluf prel15 is top11=0x390 & prel15 & cond_16_20=0xf {
+
+}
+
+:callnlv prel15 is top11=0x390 & prel15 & cond_16_20=0x10 {
+
+}
+
+:calllv prel15 is top11=0x390 & prel15 & cond_16_20=0x11 {
+
+}
+
+:callnluf prel15 is top11=0x390 & prel15 & cond_16_20=0x12 {
+
+}
+
+:callluf prel15 is top11=0x390 & prel15 & cond_16_20=0x13 {
+
+}
+
+:callzuf prel15 is top11=0x390 & prel15 & cond_16_20=0x14 {
+
+}
+
+:cmpf reg_to11_0_15, reg_to11_16_20 is top11=0x20 & reg_to11_0_15 & reg_to11_16_20 {
+
+}
+
+:cmpf direct_0_15, reg_to11_16_20 is top11=0x21 & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:cmpf indirect_0_15, reg_to11_16_20 is top11=0x22 & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:cmpf shortfloat_immed_0_7, reg_to11_16_20 is top11=0x23 & shortfloat_immed_0_7 & reg_to11_16_20 {
+
+}
+
+:cmpf reg_to11_0_7, reg_to11_8_15 is top11=0x118 & reg_to11_0_7 & reg_to11_8_15 {
+
+}
+
+:cmpf reg_to11_0_7, indir_no_disp_8_15 is top11=0x119 & reg_to11_0_7 & indir_no_disp_8_15 {
+
+}
+
+:cmpf indir_no_disp_0_7, reg_to11_8_15 is top11=0x11a & indir_no_disp_0_7 & reg_to11_8_15 {
+
+}
+
+:cmpf indir_no_disp_0_7, indir_no_disp_8_15 is top11=0x11b & indir_no_disp_0_7 & indir_no_disp_8_15 {
+
+}
+
+:cmpi reg_0_15, reg_16_20 is top11=0x24 & reg_0_15 & reg_16_20 {
+
+}
+
+:cmpi direct_0_15, reg_16_20 is top11=0x25 & direct_0_15 & reg_16_20 {
+
+}
+
+:cmpi indirect_0_15, reg_16_20 is top11=0x26 & indirect_0_15 & reg_16_20 {
+
+}
+
+:cmpi short_int_immed_0_15, reg_16_20 is top11=0x27 & short_int_immed_0_15 & reg_16_20 {
+
+}
+
+:cmpi reg_0_7, reg_8_15 is top11=0x11c & reg_0_7 & reg_8_15 {
+
+}
+
+:cmpi reg_0_7, indir_no_disp_8_15 is top11=0x11d & reg_0_7 & indir_no_disp_8_15 {
+
+}
+
+:cmpi indir_no_disp_0_7, reg_8_15 is top11=0x11e & indir_no_disp_0_7 & reg_8_15 {
+
+}
+
+:cmpi indir_no_disp_0_7, indir_no_disp_8_15 is top11=0x11f & indir_no_disp_0_7 & indir_no_disp_8_15 {
+
+}
+
+:dbu addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x0 {
+
+}
+
+:dblo addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x1 {
+
+}
+
+:dbls addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x2 {
+
+}
+
+:dbhi addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x3 {
+
+}
+
+:dbhs addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x4 {
+
+}
+
+:dbeq addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x5 {
+
+}
+
+:dbne addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x6 {
+
+}
+
+:dblt addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x7 {
+
+}
+
+:dble addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x8 {
+
+}
+
+:dbgt addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x9 {
+
+}
+
+:dbge addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0xa {
+
+}
+
+:dbnv addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0xc {
+
+}
+
+:dbv addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0xd {
+
+}
+
+:dbnuf addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0xe {
+
+}
+
+:dbuf addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0xf {
+
+}
+
+:dbnlv addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x10 {
+
+}
+
+:dblv addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x11 {
+
+}
+
+:dbnluf addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x12 {
+
+}
+
+:dbluf addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x13 {
+
+}
+
+:dbzuf addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x0 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x14 {
+
+}
+
+:dbu addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x0 {
+
+}
+
+:dblo addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x1 {
+
+}
+
+:dbls addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x2 {
+
+}
+
+:dbhi addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x3 {
+
+}
+
+:dbhs addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x4 {
+
+}
+
+:dbeq addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x5 {
+
+}
+
+:dbne addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x6 {
+
+}
+
+:dblt addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x7 {
+
+}
+
+:dble addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x8 {
+
+}
+
+:dbgt addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x9 {
+
+}
+
+:dbge addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0xa {
+
+}
+
+:dbnv addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0xc {
+
+}
+
+:dbv addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0xd {
+
+}
+
+:dbnuf addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0xe {
+
+}
+
+:dbuf addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0xf {
+
+}
+
+:dbnlv addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x10 {
+
+}
+
+:dblv addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x11 {
+
+}
+
+:dbnluf addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x12 {
+
+}
+
+:dbluf addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x13 {
+
+}
+
+:dbzuf addr_reg_22_24, prel15 is top7=0x37 & bit21=0x0 & addr_reg_22_24 & prel15 & cond_16_20=0x14 {
+
+}
+
+:dbud addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x0 {
+
+}
+
+:dblod addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x1 {
+
+}
+
+:dblsd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x2 {
+
+}
+
+:dbhid addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x3 {
+
+}
+
+:dbhsd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x4 {
+
+}
+
+:dbeqd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x5 {
+
+}
+
+:dbned addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x6 {
+
+}
+
+:dbltd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x7 {
+
+}
+
+:dbled addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x8 {
+
+}
+
+:dbgtd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x9 {
+
+}
+
+:dbged addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0xa {
+
+}
+
+:dbnvd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0xc {
+
+}
+
+:dbvd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0xd {
+
+}
+
+:dbnufd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0xe {
+
+}
+
+:dbufd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0xf {
+
+}
+
+:dbnlvd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x10 {
+
+}
+
+:dblvd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x11 {
+
+}
+
+:dbnlufd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x12 {
+
+}
+
+:dblufd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x13 {
+
+}
+
+:dbzufd addr_reg_22_24, reg_0_15 is top7=0x36 & bit21=0x1 & addr_reg_22_24 & reg_0_15 & cond_16_20=0x14 {
+
+}
+
+:dbud addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x0 {
+
+}
+
+:dblod addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x1 {
+
+}
+
+:dblsd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x2 {
+
+}
+
+:dbhid addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x3 {
+
+}
+
+:dbhsd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x4 {
+
+}
+
+:dbeqd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x5 {
+
+}
+
+:dbned addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x6 {
+
+}
+
+:dbltd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x7 {
+
+}
+
+:dbled addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x8 {
+
+}
+
+:dbgtd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x9 {
+
+}
+
+:dbged addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0xa {
+
+}
+
+:dbnvd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0xc {
+
+}
+
+:dbvd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0xd {
+
+}
+
+:dbnufd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0xe {
+
+}
+
+:dbufd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0xf {
+
+}
+
+:dbnlvd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x10 {
+
+}
+
+:dblvd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x11 {
+
+}
+
+:dbnlufd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x12 {
+
+}
+
+:dblufd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x13 {
+
+}
+
+:dbzufd addr_reg_22_24, prel15 is top7=0x37 & bit21=0x1 & addr_reg_22_24 & prel15 & cond_16_20=0x14 {
+
+}
+
+:fix reg_to11_0_15, reg_16_20 is top11=0x28 & reg_to11_0_15 & reg_16_20 {
+
+}
+
+:fix direct_0_15, reg_16_20 is top11=0x29 & direct_0_15 & reg_16_20 {
+
+}
+
+:fix indirect_0_15, reg_16_20 is top11=0x2a & indirect_0_15 & reg_16_20 {
+
+}
+
+:fix shortfloat_immed_0_7, reg_16_20 is top11=0x2b & shortfloat_immed_0_7 & reg_16_20 {
+
+}
+
+:fix_sti indir_enh_0_7, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x6a & indir_enh_0_7 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:float reg_0_15, reg_to11_16_20 is top11=0x2c & reg_0_15 & reg_to11_16_20 {
+
+}
+
+:float direct_0_15, reg_to11_16_20 is top11=0x2d & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:float indirect_0_15, reg_to11_16_20 is top11=0x2e & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:float short_int_immed_0_15, reg_to11_16_20 is top11=0x2f & short_int_immed_0_15 & reg_to11_16_20 {
+
+}
+
+:float_stf indir_enh_0_7, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x6b & indir_enh_0_7 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:iack direct_0_15 is top11=0xd9 & direct_0_15 {
+
+}
+
+:iack indirect_0_15 is top11=0xda & indirect_0_15 {
+
+}
+
+:idle  is whole=0x6000000  {
+
+}
+
+:lde reg_to11_0_15, reg_to11_16_20 is top11=0x34 & reg_to11_0_15 & reg_to11_16_20 {
+
+}
+
+:lde direct_0_15, reg_to11_16_20 is top11=0x35 & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:lde indirect_0_15, reg_to11_16_20 is top11=0x36 & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:lde shortfloat_immed_0_7, reg_to11_16_20 is top11=0x37 & shortfloat_immed_0_7 & reg_to11_16_20 {
+
+}
+
+:ldf reg_to11_0_15, reg_to11_16_20 is top11=0x38 & reg_to11_0_15 & reg_to11_16_20 {
+
+}
+
+:ldf direct_0_15, reg_to11_16_20 is top11=0x39 & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:ldf indirect_0_15, reg_to11_16_20 is top11=0x3a & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:ldf shortfloat_immed_0_7, reg_to11_16_20 is top11=0x3b & shortfloat_immed_0_7 & reg_to11_16_20 {
+
+}
+
+:ldf_ldf indir_enh_0_7, reg_22_24, indir_no_disp_8_15, reg_19_21 is top7=0x62 & indir_enh_0_7 & reg_22_24 & indir_no_disp_8_15 & reg_19_21 {
+
+}
+
+:ldf_stf indir_enh_0_7, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x6c & indir_enh_0_7 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:ldfu reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x0 {
+
+}
+
+:ldflo reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x1 {
+
+}
+
+:ldfls reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x2 {
+
+}
+
+:ldfhi reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x3 {
+
+}
+
+:ldfhs reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x4 {
+
+}
+
+:ldfeq reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x5 {
+
+}
+
+:ldfne reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x6 {
+
+}
+
+:ldflt reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x7 {
+
+}
+
+:ldfle reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x8 {
+
+}
+
+:ldfgt reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x9 {
+
+}
+
+:ldfge reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0xa {
+
+}
+
+:ldfnv reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0xc {
+
+}
+
+:ldfv reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0xd {
+
+}
+
+:ldfnuf reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0xe {
+
+}
+
+:ldfuf reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0xf {
+
+}
+
+:ldfnlv reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x10 {
+
+}
+
+:ldflv reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x11 {
+
+}
+
+:ldfnluf reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x12 {
+
+}
+
+:ldfluf reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x13 {
+
+}
+
+:ldfzuf reg_to11_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x0 & reg_to11_0_15 & reg_to11_16_20 & cond_23_27=0x14 {
+
+}
+
+:ldfu direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x0 {
+
+}
+
+:ldflo direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x1 {
+
+}
+
+:ldfls direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x2 {
+
+}
+
+:ldfhi direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x3 {
+
+}
+
+:ldfhs direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x4 {
+
+}
+
+:ldfeq direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x5 {
+
+}
+
+:ldfne direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x6 {
+
+}
+
+:ldflt direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x7 {
+
+}
+
+:ldfle direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x8 {
+
+}
+
+:ldfgt direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x9 {
+
+}
+
+:ldfge direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0xa {
+
+}
+
+:ldfnv direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0xc {
+
+}
+
+:ldfv direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0xd {
+
+}
+
+:ldfnuf direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0xe {
+
+}
+
+:ldfuf direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0xf {
+
+}
+
+:ldfnlv direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x10 {
+
+}
+
+:ldflv direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x11 {
+
+}
+
+:ldfnluf direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x12 {
+
+}
+
+:ldfluf direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x13 {
+
+}
+
+:ldfzuf direct_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x1 & direct_0_15 & reg_to11_16_20 & cond_23_27=0x14 {
+
+}
+
+:ldfu indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x0 {
+
+}
+
+:ldflo indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x1 {
+
+}
+
+:ldfls indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x2 {
+
+}
+
+:ldfhi indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x3 {
+
+}
+
+:ldfhs indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x4 {
+
+}
+
+:ldfeq indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x5 {
+
+}
+
+:ldfne indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x6 {
+
+}
+
+:ldflt indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x7 {
+
+}
+
+:ldfle indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x8 {
+
+}
+
+:ldfgt indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x9 {
+
+}
+
+:ldfge indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0xa {
+
+}
+
+:ldfnv indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0xc {
+
+}
+
+:ldfv indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0xd {
+
+}
+
+:ldfnuf indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0xe {
+
+}
+
+:ldfuf indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0xf {
+
+}
+
+:ldfnlv indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x10 {
+
+}
+
+:ldflv indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x11 {
+
+}
+
+:ldfnluf indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x12 {
+
+}
+
+:ldfluf indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x13 {
+
+}
+
+:ldfzuf indirect_0_15, reg_to11_16_20 is top4=0x4 & bits21and22=0x2 & indirect_0_15 & reg_to11_16_20 & cond_23_27=0x14 {
+
+}
+
+:ldfu shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x0 {
+
+}
+
+:ldflo shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x1 {
+
+}
+
+:ldfls shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x2 {
+
+}
+
+:ldfhi shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x3 {
+
+}
+
+:ldfhs shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x4 {
+
+}
+
+:ldfeq shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x5 {
+
+}
+
+:ldfne shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x6 {
+
+}
+
+:ldflt shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x7 {
+
+}
+
+:ldfle shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x8 {
+
+}
+
+:ldfgt shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x9 {
+
+}
+
+:ldfge shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0xa {
+
+}
+
+:ldfnv shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0xc {
+
+}
+
+:ldfv shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0xd {
+
+}
+
+:ldfnuf shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0xe {
+
+}
+
+:ldfuf shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0xf {
+
+}
+
+:ldfnlv shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x10 {
+
+}
+
+:ldflv shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x11 {
+
+}
+
+:ldfnluf shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x12 {
+
+}
+
+:ldfluf shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x13 {
+
+}
+
+:ldfzuf shortfloat_immed_0_7, reg_to11_16_20 is top4=0x4 & bits21and22=0x3 & shortfloat_immed_0_7 & reg_to11_16_20 & cond_23_27=0x14 {
+
+}
+
+:ldfi direct_0_15, reg_to11_16_20 is top11=0x3d & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:ldfi indirect_0_15, reg_to11_16_20 is top11=0x3e & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:ldi reg_0_15, reg_16_20 is top11=0x40 & reg_0_15 & reg_16_20 {
+
+}
+
+:ldi direct_0_15, reg_16_20 is top11=0x41 & direct_0_15 & reg_16_20 {
+
+}
+
+:ldi indirect_0_15, reg_16_20 is top11=0x42 & indirect_0_15 & reg_16_20 {
+
+}
+
+:ldi short_int_immed_0_15, reg_16_20 is top11=0x43 & short_int_immed_0_15 & reg_16_20 {
+    reg_16_20 = short_int_immed_0_15;
+}
+
+:ldi_ldi indir_enh_0_7, reg_22_24, indir_no_disp_8_15, reg_19_21 is top7=0x63 & indir_enh_0_7 & reg_22_24 & indir_no_disp_8_15 & reg_19_21 {
+
+}
+
+:ldi_sti indir_enh_0_7, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x6d & indir_enh_0_7 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:ldiu reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x0 {
+
+}
+
+:ldilo reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x1 {
+
+}
+
+:ldils reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x2 {
+
+}
+
+:ldihi reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x3 {
+
+}
+
+:ldihs reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x4 {
+
+}
+
+:ldieq reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x5 {
+
+}
+
+:ldine reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x6 {
+
+}
+
+:ldilt reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x7 {
+
+}
+
+:ldile reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x8 {
+
+}
+
+:ldigt reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x9 {
+
+}
+
+:ldige reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0xa {
+
+}
+
+:ldinv reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0xc {
+
+}
+
+:ldiv reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0xd {
+
+}
+
+:ldinuf reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0xe {
+
+}
+
+:ldiuf reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0xf {
+
+}
+
+:ldinlv reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x10 {
+
+}
+
+:ldilv reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x11 {
+
+}
+
+:ldinluf reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x12 {
+
+}
+
+:ldiluf reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x13 {
+
+}
+
+:ldizuf reg_0_15, reg_16_20 is top4=0x5 & bits21and22=0x0 & reg_0_15 & reg_16_20 & cond_23_27=0x14 {
+
+}
+
+:ldiu direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x0 {
+
+}
+
+:ldilo direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x1 {
+
+}
+
+:ldils direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x2 {
+
+}
+
+:ldihi direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x3 {
+
+}
+
+:ldihs direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x4 {
+
+}
+
+:ldieq direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x5 {
+
+}
+
+:ldine direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x6 {
+
+}
+
+:ldilt direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x7 {
+
+}
+
+:ldile direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x8 {
+
+}
+
+:ldigt direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x9 {
+
+}
+
+:ldige direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0xa {
+
+}
+
+:ldinv direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0xc {
+
+}
+
+:ldiv direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0xd {
+
+}
+
+:ldinuf direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0xe {
+
+}
+
+:ldiuf direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0xf {
+
+}
+
+:ldinlv direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x10 {
+
+}
+
+:ldilv direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x11 {
+
+}
+
+:ldinluf direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x12 {
+
+}
+
+:ldiluf direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x13 {
+
+}
+
+:ldizuf direct_0_15, reg_16_20 is top4=0x5 & bits21and22=0x1 & direct_0_15 & reg_16_20 & cond_23_27=0x14 {
+
+}
+
+:ldiu indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x0 {
+
+}
+
+:ldilo indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x1 {
+
+}
+
+:ldils indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x2 {
+
+}
+
+:ldihi indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x3 {
+
+}
+
+:ldihs indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x4 {
+
+}
+
+:ldieq indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x5 {
+
+}
+
+:ldine indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x6 {
+
+}
+
+:ldilt indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x7 {
+
+}
+
+:ldile indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x8 {
+
+}
+
+:ldigt indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x9 {
+
+}
+
+:ldige indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0xa {
+
+}
+
+:ldinv indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0xc {
+
+}
+
+:ldiv indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0xd {
+
+}
+
+:ldinuf indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0xe {
+
+}
+
+:ldiuf indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0xf {
+
+}
+
+:ldinlv indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x10 {
+
+}
+
+:ldilv indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x11 {
+
+}
+
+:ldinluf indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x12 {
+
+}
+
+:ldiluf indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x13 {
+
+}
+
+:ldizuf indirect_0_15, reg_16_20 is top4=0x5 & bits21and22=0x2 & indirect_0_15 & reg_16_20 & cond_23_27=0x14 {
+
+}
+
+:ldiu short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x0 {
+
+}
+
+:ldilo short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x1 {
+
+}
+
+:ldils short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x2 {
+
+}
+
+:ldihi short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x3 {
+
+}
+
+:ldihs short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x4 {
+
+}
+
+:ldieq short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x5 {
+
+}
+
+:ldine short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x6 {
+
+}
+
+:ldilt short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x7 {
+
+}
+
+:ldile short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x8 {
+
+}
+
+:ldigt short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x9 {
+
+}
+
+:ldige short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0xa {
+
+}
+
+:ldinv short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0xc {
+
+}
+
+:ldiv short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0xd {
+
+}
+
+:ldinuf short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0xe {
+
+}
+
+:ldiuf short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0xf {
+
+}
+
+:ldinlv short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x10 {
+
+}
+
+:ldilv short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x11 {
+
+}
+
+:ldinluf short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x12 {
+
+}
+
+:ldiluf short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x13 {
+
+}
+
+:ldizuf short_int_immed_0_15, reg_16_20 is top4=0x5 & bits21and22=0x3 & short_int_immed_0_15 & reg_16_20 & cond_23_27=0x14 {
+
+}
+
+:ldii direct_0_15, reg_16_20 is top11=0x45 & direct_0_15 & reg_16_20 {
+
+}
+
+:ldii indirect_0_15, reg_16_20 is top11=0x46 & indirect_0_15 & reg_16_20 {
+
+}
+
+:ldp directLDP_0_15 is top16=0x5070 & directLDP_0_15 {
+
+}
+
+:ldm reg_to11_0_15, reg_to11_16_20 is top11=0x48 & reg_to11_0_15 & reg_to11_16_20 {
+
+}
+
+:ldm direct_0_15, reg_to11_16_20 is top11=0x49 & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:ldm indirect_0_15, reg_to11_16_20 is top11=0x4a & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:ldm shortfloat_immed_0_7, reg_to11_16_20 is top11=0x4b & shortfloat_immed_0_7 & reg_to11_16_20 {
+
+}
+
+:lsh reg_0_15, reg_16_20 is top11=0x4c & reg_0_15 & reg_16_20 {
+	reg_16_20 = reg_16_20 << reg_0_15;
+}
+
+:lsh direct_0_15, reg_16_20 is top11=0x4d & direct_0_15 & reg_16_20 {
+
+}
+
+:lsh indirect_0_15, reg_16_20 is top11=0x4e & indirect_0_15 & reg_16_20 {
+
+}
+
+:lsh short_int_immed_0_15, reg_16_20 is top11=0x4f & short_int_immed_0_15 & reg_16_20 {
+	reg_16_20 = reg_16_20 << short_int_immed_0_15;
+}
+
+:lsh reg_0_7, reg_8_15, reg_16_20 is top11=0x120 & reg_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:lsh reg_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x121 & reg_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:lsh indir_no_disp_0_7, reg_8_15, reg_16_20 is top11=0x122 & indir_no_disp_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:lsh indir_no_disp_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x123 & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:lsh_sti reg_19_21, indir_enh_0_7, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x6e & reg_19_21 & indir_enh_0_7 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:mpyf reg_to11_0_15, reg_to11_16_20 is top11=0x50 & reg_to11_0_15 & reg_to11_16_20 {
+
+}
+
+:mpyf direct_0_15, reg_to11_16_20 is top11=0x51 & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:mpyf indirect_0_15, reg_to11_16_20 is top11=0x52 & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:mpyf shortfloat_immed_0_7, reg_to11_16_20 is top11=0x53 & shortfloat_immed_0_7 & reg_to11_16_20 {
+
+}
+
+:mpyf reg_to11_0_7, reg_to11_8_15, reg_to11_16_20 is top11=0x124 & reg_to11_0_7 & reg_to11_8_15 & reg_to11_16_20 {
+
+}
+
+:mpyf reg_to11_0_7, indir_no_disp_8_15, reg_to11_16_20 is top11=0x125 & reg_to11_0_7 & indir_no_disp_8_15 & reg_to11_16_20 {
+
+}
+
+:mpyf indir_no_disp_0_7, reg_to11_8_15, reg_to11_16_20 is top11=0x126 & indir_no_disp_0_7 & reg_to11_8_15 & reg_to11_16_20 {
+
+}
+
+:mpyf indir_no_disp_0_7, indir_no_disp_8_15, reg_to11_16_20 is top11=0x127 & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_to11_16_20 {
+
+}
+
+:mpyf_addf indir_enh_0_7, indir_no_disp_enh, reg_0_or_1_23, reg_to7_16_18, reg_19_21, reg_2_or_3_22 is top8=0x80 & indir_enh_0_7 & indir_no_disp_enh & reg_0_or_1_23 & reg_to7_16_18 & reg_19_21 & reg_2_or_3_22 {
+
+}
+
+:mpyf_addf indir_no_disp_enh, reg_19_21, reg_0_or_1_23, reg_to7_16_18, indir_enh_0_7, reg_2_or_3_22 is top8=0x81 & indir_no_disp_enh & reg_19_21 & reg_0_or_1_23 & reg_to7_16_18 & indir_enh_0_7 & reg_2_or_3_22 {
+
+}
+
+:mpyf_addf reg_to7_16_18, reg_19_21, reg_0_or_1_23, indir_enh_0_7, indir_no_disp_enh, reg_2_or_3_22 is top8=0x82 & reg_to7_16_18 & reg_19_21 & reg_0_or_1_23 & indir_enh_0_7 & indir_no_disp_enh & reg_2_or_3_22 {
+
+}
+
+:mpyf_addf indir_no_disp_enh, reg_19_21, reg_0_or_1_23, indir_enh_0_7, reg_to7_16_18, reg_2_or_3_22 is top8=0x83 & indir_no_disp_enh & reg_19_21 & reg_0_or_1_23 & indir_enh_0_7 & reg_to7_16_18 & reg_2_or_3_22 {
+
+}
+
+:mpyf_stf indir_enh_0_7, reg_19_21, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x6f & indir_enh_0_7 & reg_19_21 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:mpyf_subf indir_enh_0_7, indir_no_disp_enh, reg_0_or_1_23, reg_to7_16_18, reg_19_21, reg_2_or_3_22 is top8=0x84 & indir_enh_0_7 & indir_no_disp_enh & reg_0_or_1_23 & reg_to7_16_18 & reg_19_21 & reg_2_or_3_22 {
+
+}
+
+:mpyf_subf indir_no_disp_enh, reg_19_21, reg_0_or_1_23, reg_to7_16_18, indir_enh_0_7, reg_2_or_3_22 is top8=0x85 & indir_no_disp_enh & reg_19_21 & reg_0_or_1_23 & reg_to7_16_18 & indir_enh_0_7 & reg_2_or_3_22 {
+
+}
+
+:mpyf_subf reg_to7_16_18, reg_19_21, reg_0_or_1_23, indir_enh_0_7, indir_no_disp_enh, reg_2_or_3_22 is top8=0x86 & reg_to7_16_18 & reg_19_21 & reg_0_or_1_23 & indir_enh_0_7 & indir_no_disp_enh & reg_2_or_3_22 {
+
+}
+
+:mpyf_subf indir_no_disp_enh, reg_19_21, reg_0_or_1_23, indir_enh_0_7, reg_to7_16_18, reg_2_or_3_22 is top8=0x87 & indir_no_disp_enh & reg_19_21 & reg_0_or_1_23 & indir_enh_0_7 & reg_to7_16_18 & reg_2_or_3_22 {
+
+}
+
+:mpyi reg_0_15, reg_16_20 is top11=0x54 & reg_0_15 & reg_16_20 {
+
+}
+
+:mpyi direct_0_15, reg_16_20 is top11=0x55 & direct_0_15 & reg_16_20 {
+
+}
+
+:mpyi indirect_0_15, reg_16_20 is top11=0x56 & indirect_0_15 & reg_16_20 {
+
+}
+
+:mpyi short_int_immed_0_15, reg_16_20 is top11=0x57 & short_int_immed_0_15 & reg_16_20 {
+
+}
+
+:mpyi reg_0_7, reg_8_15, reg_16_20 is top11=0x128 & reg_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:mpyi reg_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x129 & reg_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:mpyi indir_no_disp_0_7, reg_8_15, reg_16_20 is top11=0x12a & indir_no_disp_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:mpyi indir_no_disp_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x12b & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:mpyi_addi indir_enh_0_7, indir_no_disp_enh, reg_0_or_1_23, reg_to7_16_18, reg_19_21, reg_2_or_3_22 is top8=0x88 & indir_enh_0_7 & indir_no_disp_enh & reg_0_or_1_23 & reg_to7_16_18 & reg_19_21 & reg_2_or_3_22 {
+
+}
+
+:mpyi_addi indir_no_disp_enh, reg_19_21, reg_0_or_1_23, reg_to7_16_18, indir_enh_0_7, reg_2_or_3_22 is top8=0x89 & indir_no_disp_enh & reg_19_21 & reg_0_or_1_23 & reg_to7_16_18 & indir_enh_0_7 & reg_2_or_3_22 {
+
+}
+
+:mpyi_addi reg_to7_16_18, reg_19_21, reg_0_or_1_23, indir_enh_0_7, indir_no_disp_enh, reg_2_or_3_22 is top8=0x8a & reg_to7_16_18 & reg_19_21 & reg_0_or_1_23 & indir_enh_0_7 & indir_no_disp_enh & reg_2_or_3_22 {
+
+}
+
+:mpyi_addi indir_no_disp_enh, reg_19_21, reg_0_or_1_23, indir_enh_0_7, reg_to7_16_18, reg_2_or_3_22 is top8=0x8b & indir_no_disp_enh & reg_19_21 & reg_0_or_1_23 & indir_enh_0_7 & reg_to7_16_18 & reg_2_or_3_22 {
+
+}
+
+:mpyi_sti indir_enh_0_7, reg_19_21, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x70 & indir_enh_0_7 & reg_19_21 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:mpyi_subi indir_enh_0_7, indir_no_disp_enh, reg_0_or_1_23, reg_to7_16_18, reg_19_21, reg_2_or_3_22 is top8=0x8c & indir_enh_0_7 & indir_no_disp_enh & reg_0_or_1_23 & reg_to7_16_18 & reg_19_21 & reg_2_or_3_22 {
+
+}
+
+:mpyi_subi indir_no_disp_enh, reg_19_21, reg_0_or_1_23, reg_to7_16_18, indir_enh_0_7, reg_2_or_3_22 is top8=0x8d & indir_no_disp_enh & reg_19_21 & reg_0_or_1_23 & reg_to7_16_18 & indir_enh_0_7 & reg_2_or_3_22 {
+
+}
+
+:mpyi_subi reg_to7_16_18, reg_19_21, reg_0_or_1_23, indir_enh_0_7, indir_no_disp_enh, reg_2_or_3_22 is top8=0x8e & reg_to7_16_18 & reg_19_21 & reg_0_or_1_23 & indir_enh_0_7 & indir_no_disp_enh & reg_2_or_3_22 {
+
+}
+
+:mpyi_subi indir_no_disp_enh, reg_19_21, reg_0_or_1_23, indir_enh_0_7, reg_to7_16_18, reg_2_or_3_22 is top8=0x8f & indir_no_disp_enh & reg_19_21 & reg_0_or_1_23 & indir_enh_0_7 & reg_to7_16_18 & reg_2_or_3_22 {
+
+}
+
+:negb reg_0_15, reg_16_20 is top11=0x58 & reg_0_15 & reg_16_20 {
+
+}
+
+:negb direct_0_15, reg_16_20 is top11=0x59 & direct_0_15 & reg_16_20 {
+
+}
+
+:negb indirect_0_15, reg_16_20 is top11=0x5a & indirect_0_15 & reg_16_20 {
+
+}
+
+:negb short_int_immed_0_15, reg_16_20 is top11=0x5b & short_int_immed_0_15 & reg_16_20 {
+
+}
+
+:negf reg_to11_0_15, reg_to11_16_20 is top11=0x5c & reg_to11_0_15 & reg_to11_16_20 {
+
+}
+
+:negf direct_0_15, reg_to11_16_20 is top11=0x5d & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:negf indirect_0_15, reg_to11_16_20 is top11=0x5e & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:negf shortfloat_immed_0_7, reg_to11_16_20 is top11=0x5f & shortfloat_immed_0_7 & reg_to11_16_20 {
+
+}
+
+:negf_stf indir_enh_0_7, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x71 & indir_enh_0_7 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:negi reg_0_15, reg_16_20 is top11=0x60 & reg_0_15 & reg_16_20 {
+
+}
+
+:negi direct_0_15, reg_16_20 is top11=0x61 & direct_0_15 & reg_16_20 {
+
+}
+
+:negi indirect_0_15, reg_16_20 is top11=0x62 & indirect_0_15 & reg_16_20 {
+
+}
+
+:negi short_int_immed_0_15, reg_16_20 is top11=0x63 & short_int_immed_0_15 & reg_16_20 {
+
+}
+
+:negi_sti indir_enh_0_7, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x72 & indir_enh_0_7 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:nop reg_0_15 is top11=0x64 & reg_0_15 {
+
+}
+
+:nop indirect_0_15 is top11=0x66 & indirect_0_15 {
+
+}
+
+:norm reg_to11_0_15, reg_to11_16_20 is top11=0x68 & reg_to11_0_15 & reg_to11_16_20 {
+
+}
+
+:norm direct_0_15, reg_to11_16_20 is top11=0x69 & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:norm indirect_0_15, reg_to11_16_20 is top11=0x6a & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:norm shortfloat_immed_0_7, reg_to11_16_20 is top11=0x6b & shortfloat_immed_0_7 & reg_to11_16_20 {
+
+}
+
+:not reg_0_15, reg_16_20 is top11=0x6c & reg_0_15 & reg_16_20 {
+
+}
+
+:not direct_0_15, reg_16_20 is top11=0x6d & direct_0_15 & reg_16_20 {
+
+}
+
+:not indirect_0_15, reg_16_20 is top11=0x6e & indirect_0_15 & reg_16_20 {
+
+}
+
+:not uint_0_15, reg_16_20 is top11=0x6f & uint_0_15 & reg_16_20 {
+
+}
+
+:not_sti indir_enh_0_7, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x73 & indir_enh_0_7 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:or reg_0_15, reg_16_20 is top11=0x80 & reg_0_15 & reg_16_20 {
+    reg_16_20 = reg_16_20 | reg_0_15;
+}
+
+:or direct_0_15, reg_16_20 is top11=0x81 & direct_0_15 & reg_16_20 {
+    reg_16_20 = reg_16_20 | direct_0_15;
+}
+
+:or indirect_0_15, reg_16_20 is top11=0x82 & indirect_0_15 & reg_16_20 {
+
+}
+
+:or uint_0_15, reg_16_20 is top11=0x83 & uint_0_15 & reg_16_20 {
+
+}
+
+:or reg_0_7, reg_8_15, reg_16_20 is top11=0x12c & reg_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:or reg_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x12d & reg_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:or indir_no_disp_0_7, reg_8_15, reg_16_20 is top11=0x12e & indir_no_disp_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:or indir_no_disp_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x12f & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:or_sti indir_enh_0_7, reg_19_21, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x74 & indir_enh_0_7 & reg_19_21 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:pop reg_16_20 is top11=0x71 & src=0x0 & reg_16_20 {
+
+}
+
+:popf reg_to11_16_20 is top11=0x75 & src=0x0 & reg_to11_16_20 {
+
+}
+
+:push reg_16_20 is top11=0x79 & src=0x0 & reg_16_20 {
+
+}
+
+:pushf reg_to11_16_20 is top11=0x7d & src=0x0 & reg_to11_16_20 {
+
+}
+
+:retiu  is top11=0x3c0 & cond_16_20=0x0 {
+
+}
+
+:retilo  is top11=0x3c0 & cond_16_20=0x1 {
+
+}
+
+:retils  is top11=0x3c0 & cond_16_20=0x2 {
+
+}
+
+:retihi  is top11=0x3c0 & cond_16_20=0x3 {
+
+}
+
+:retihs  is top11=0x3c0 & cond_16_20=0x4 {
+
+}
+
+:retieq  is top11=0x3c0 & cond_16_20=0x5 {
+
+}
+
+:retine  is top11=0x3c0 & cond_16_20=0x6 {
+
+}
+
+:retilt  is top11=0x3c0 & cond_16_20=0x7 {
+
+}
+
+:retile  is top11=0x3c0 & cond_16_20=0x8 {
+
+}
+
+:retigt  is top11=0x3c0 & cond_16_20=0x9 {
+
+}
+
+:retige  is top11=0x3c0 & cond_16_20=0xa {
+
+}
+
+:retinv  is top11=0x3c0 & cond_16_20=0xc {
+
+}
+
+:retiv  is top11=0x3c0 & cond_16_20=0xd {
+
+}
+
+:retinuf  is top11=0x3c0 & cond_16_20=0xe {
+
+}
+
+:retiuf  is top11=0x3c0 & cond_16_20=0xf {
+
+}
+
+:retinlv  is top11=0x3c0 & cond_16_20=0x10 {
+
+}
+
+:retilv  is top11=0x3c0 & cond_16_20=0x11 {
+
+}
+
+:retinluf  is top11=0x3c0 & cond_16_20=0x12 {
+
+}
+
+:retiluf  is top11=0x3c0 & cond_16_20=0x13 {
+
+}
+
+:retizuf  is top11=0x3c0 & cond_16_20=0x14 {
+
+}
+
+:reti  is top11=0x3c0  {
+
+}
+
+:retsu  is top11=0x3c4 & cond_16_20=0x0 {
+    # todo: conditional
+    SP = SP-4;
+	tmp:4 = *:4 SP;
+	
+	return [tmp];
+}
+
+:retslo  is top11=0x3c4 & cond_16_20=0x1 {
+
+}
+
+:retsls  is top11=0x3c4 & cond_16_20=0x2 {
+
+}
+
+:retshi  is top11=0x3c4 & cond_16_20=0x3 {
+
+}
+
+:retshs  is top11=0x3c4 & cond_16_20=0x4 {
+
+}
+
+:retseq  is top11=0x3c4 & cond_16_20=0x5 {
+
+}
+
+:retsne  is top11=0x3c4 & cond_16_20=0x6 {
+
+}
+
+:retslt  is top11=0x3c4 & cond_16_20=0x7 {
+
+}
+
+:retsle  is top11=0x3c4 & cond_16_20=0x8 {
+
+}
+
+:retsgt  is top11=0x3c4 & cond_16_20=0x9 {
+
+}
+
+:retsge  is top11=0x3c4 & cond_16_20=0xa {
+
+}
+
+:retsnv  is top11=0x3c4 & cond_16_20=0xc {
+
+}
+
+:retsv  is top11=0x3c4 & cond_16_20=0xd {
+
+}
+
+:retsnuf  is top11=0x3c4 & cond_16_20=0xe {
+
+}
+
+:retsuf  is top11=0x3c4 & cond_16_20=0xf {
+
+}
+
+:retsnlv  is top11=0x3c4 & cond_16_20=0x10 {
+
+}
+
+:retslv  is top11=0x3c4 & cond_16_20=0x11 {
+
+}
+
+:retsnluf  is top11=0x3c4 & cond_16_20=0x12 {
+
+}
+
+:retsluf  is top11=0x3c4 & cond_16_20=0x13 {
+
+}
+
+:retszuf  is top11=0x3c4 & cond_16_20=0x14 {
+
+}
+
+:rets  is top11=0x3c4  {
+
+}
+
+:rnd reg_to11_0_15, reg_to11_16_20 is top11=0x88 & reg_to11_0_15 & reg_to11_16_20 {
+
+}
+
+:rnd direct_0_15, reg_to11_16_20 is top11=0x89 & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:rnd indirect_0_15, reg_to11_16_20 is top11=0x8a & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:rnd shortfloat_immed_0_7, reg_to11_16_20 is top11=0x8b & shortfloat_immed_0_7 & reg_to11_16_20 {
+
+}
+
+:rol reg_16_20 is top11=0x8f & src=0x1 & reg_16_20 {
+
+}
+
+:rolc reg_16_20 is top11=0x93 & src=0x1 & reg_16_20 {
+
+}
+
+:ror reg_16_20 is top11=0x97 & src=0xffff & reg_16_20 {
+
+}
+
+:rorc reg_16_20 is top11=0x9b & src=0xffff & reg_16_20 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x0 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x1 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x2 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x3 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x4 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x5 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x6 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x7 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x8 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x9 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0xa {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0xc {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0xd {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0xe {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0xf {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x10 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x11 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x12 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x13 {
+
+}
+
+:rptb abs_uint_0_23 is top8=0x64 & abs_uint_0_23 & cond_16_20=0x14 {
+
+}
+
+:rpts reg_0_15 is top16=0x139b & reg_0_15 {
+
+}
+
+:rpts direct_0_15 is top16=0x13bb & direct_0_15 {
+
+}
+
+:rpts indirect_0_15 is top16=0x13db & indirect_0_15 {
+
+}
+
+:rpts uint_0_15 is top16=0x13fb & uint_0_15 {
+
+}
+
+:sigi  is top11=0xb0  {
+
+}
+
+:stf reg_to11_16_20, direct_0_15 is top11=0xa1 & reg_to11_16_20 & direct_0_15 {
+
+}
+
+:stf reg_to11_16_20, indirect_0_15 is top11=0xa2 & reg_to11_16_20 & indirect_0_15 {
+
+}
+
+:stf_stf reg_22_24, indir_enh_0_7, reg_to7_16_18, indir_no_disp_8_15 is top7=0x60 & reg_22_24 & indir_enh_0_7 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:stfi reg_to11_16_20, direct_0_15 is top11=0xa5 & reg_to11_16_20 & direct_0_15 {
+
+}
+
+:stfi reg_to11_16_20, indirect_0_15 is top11=0xa6 & reg_to11_16_20 & indirect_0_15 {
+
+}
+
+:sti reg_16_20, direct_0_15 is top11=0xa9 & reg_16_20 & direct_0_15 {
+
+}
+
+:sti reg_16_20, indirect_0_15 is top11=0xaa & reg_16_20 & indirect_0_15 {
+
+}
+
+:sti_sti reg_22_24, indir_enh_0_7, reg_to7_16_18, indir_no_disp_8_15 is top7=0x61 & reg_22_24 & indir_enh_0_7 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:stii reg_16_20, direct_0_15 is top11=0xad & reg_16_20 & direct_0_15 {
+
+}
+
+:stii reg_16_20, indirect_0_15 is top11=0xae & reg_16_20 & indirect_0_15 {
+
+}
+
+:subb reg_0_15, reg_16_20 is top11=0xb4 & reg_0_15 & reg_16_20 {
+
+}
+
+:subb direct_0_15, reg_16_20 is top11=0xb5 & direct_0_15 & reg_16_20 {
+
+}
+
+:subb indirect_0_15, reg_16_20 is top11=0xb6 & indirect_0_15 & reg_16_20 {
+
+}
+
+:subb short_int_immed_0_15, reg_16_20 is top11=0xb7 & short_int_immed_0_15 & reg_16_20 {
+
+}
+
+:subb reg_0_7, reg_8_15, reg_16_20 is top11=0x130 & reg_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:subb reg_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x131 & reg_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:subb indir_no_disp_0_7, reg_8_15, reg_16_20 is top11=0x132 & indir_no_disp_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:subb indir_no_disp_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x133 & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:subc reg_0_15, reg_16_20 is top11=0xb8 & reg_0_15 & reg_16_20 {
+
+}
+
+:subc direct_0_15, reg_16_20 is top11=0xb9 & direct_0_15 & reg_16_20 {
+
+}
+
+:subc indirect_0_15, reg_16_20 is top11=0xba & indirect_0_15 & reg_16_20 {
+
+}
+
+:subc short_int_immed_0_15, reg_16_20 is top11=0xbb & short_int_immed_0_15 & reg_16_20 {
+
+}
+
+:subf reg_to11_0_15, reg_to11_16_20 is top11=0xbc & reg_to11_0_15 & reg_to11_16_20 {
+
+}
+
+:subf direct_0_15, reg_to11_16_20 is top11=0xbd & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:subf indirect_0_15, reg_to11_16_20 is top11=0xbe & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:subf shortfloat_immed_0_7, reg_to11_16_20 is top11=0xbf & shortfloat_immed_0_7 & reg_to11_16_20 {
+
+}
+
+:subf reg_to11_0_7, reg_to11_8_15, reg_to11_16_20 is top11=0x134 & reg_to11_0_7 & reg_to11_8_15 & reg_to11_16_20 {
+
+}
+
+:subf reg_to11_0_7, indir_no_disp_8_15, reg_to11_16_20 is top11=0x135 & reg_to11_0_7 & indir_no_disp_8_15 & reg_to11_16_20 {
+
+}
+
+:subf indir_no_disp_0_7, reg_to11_8_15, reg_to11_16_20 is top11=0x136 & indir_no_disp_0_7 & reg_to11_8_15 & reg_to11_16_20 {
+
+}
+
+:subf indir_no_disp_0_7, indir_no_disp_8_15, reg_to11_16_20 is top11=0x137 & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_to11_16_20 {
+
+}
+
+:subf_stf reg_19_21, indir_enh_0_7, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x75 & reg_19_21 & indir_enh_0_7 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:subi reg_0_15, reg_16_20 is top11=0xc0 & reg_0_15 & reg_16_20 {
+
+}
+
+:subi direct_0_15, reg_16_20 is top11=0xc1 & direct_0_15 & reg_16_20 {
+
+}
+
+:subi indirect_0_15, reg_16_20 is top11=0xc2 & indirect_0_15 & reg_16_20 {
+
+}
+
+:subi short_int_immed_0_15, reg_16_20 is top11=0xc3 & short_int_immed_0_15 & reg_16_20 {
+
+}
+
+:subi reg_0_7, reg_8_15, reg_16_20 is top11=0x138 & reg_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:subi reg_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x139 & reg_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:subi indir_no_disp_0_7, reg_8_15, reg_16_20 is top11=0x13a & indir_no_disp_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:subi indir_no_disp_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x13b & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:subi_sti reg_19_21, indir_enh_0_7, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x76 & reg_19_21 & indir_enh_0_7 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}
+
+:subrb reg_0_15, reg_16_20 is top11=0xc4 & reg_0_15 & reg_16_20 {
+
+}
+
+:subrb direct_0_15, reg_16_20 is top11=0xc5 & direct_0_15 & reg_16_20 {
+
+}
+
+:subrb indirect_0_15, reg_16_20 is top11=0xc6 & indirect_0_15 & reg_16_20 {
+
+}
+
+:subrb short_int_immed_0_15, reg_16_20 is top11=0xc7 & short_int_immed_0_15 & reg_16_20 {
+
+}
+
+:subrf reg_to11_0_15, reg_to11_16_20 is top11=0xc8 & reg_to11_0_15 & reg_to11_16_20 {
+
+}
+
+:subrf direct_0_15, reg_to11_16_20 is top11=0xc9 & direct_0_15 & reg_to11_16_20 {
+
+}
+
+:subrf indirect_0_15, reg_to11_16_20 is top11=0xca & indirect_0_15 & reg_to11_16_20 {
+
+}
+
+:subrf shortfloat_immed_0_7, reg_to11_16_20 is top11=0xcb & shortfloat_immed_0_7 & reg_to11_16_20 {
+
+}
+
+:subri reg_0_15, reg_16_20 is top11=0xcc & reg_0_15 & reg_16_20 {
+
+}
+
+:subri direct_0_15, reg_16_20 is top11=0xcd & direct_0_15 & reg_16_20 {
+
+}
+
+:subri indirect_0_15, reg_16_20 is top11=0xce & indirect_0_15 & reg_16_20 {
+
+}
+
+:subri short_int_immed_0_15, reg_16_20 is top11=0xcf & short_int_immed_0_15 & reg_16_20 {
+
+}
+
+:swi  is whole=0x66000000  {
+
+}
+
+:trapu vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x0 {
+
+}
+
+:traplo vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x1 {
+
+}
+
+:trapls vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x2 {
+
+}
+
+:traphi vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x3 {
+
+}
+
+:traphs vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x4 {
+
+}
+
+:trapeq vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x5 {
+
+}
+
+:trapne vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x6 {
+
+}
+
+:traplt vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x7 {
+
+}
+
+:traple vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x8 {
+
+}
+
+:trapgt vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x9 {
+
+}
+
+:trapge vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0xa {
+
+}
+
+:trapnv vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0xc {
+
+}
+
+:trapv vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0xd {
+
+}
+
+:trapnuf vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0xe {
+
+}
+
+:trapuf vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0xf {
+
+}
+
+:trapnlv vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x10 {
+
+}
+
+:traplv vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x11 {
+
+}
+
+:trapnluf vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x12 {
+
+}
+
+:trapluf vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x13 {
+
+}
+
+:trapzuf vect_0_4 is top11=0x3a0 & vect_0_4 & cond_16_20=0x14 {
+
+}
+
+:trap vect_0_4 is top11=0x3a0 & vect_0_4 {
+
+}
+
+:tstb reg_0_15, reg_16_20 is top11=0xd0 & reg_0_15 & reg_16_20 {
+
+}
+
+:tstb direct_0_15, reg_16_20 is top11=0xd1 & direct_0_15 & reg_16_20 {
+
+}
+
+:tstb indirect_0_15, reg_16_20 is top11=0xd2 & indirect_0_15 & reg_16_20 {
+
+}
+
+:tstb uint_0_15, reg_16_20 is top11=0xd3 & uint_0_15 & reg_16_20 {
+
+}
+
+:tstb reg_0_7, reg_8_15 is top11=0x13c & reg_0_7 & reg_8_15 {
+
+}
+
+:tstb reg_0_7, indir_no_disp_8_15 is top11=0x13d & reg_0_7 & indir_no_disp_8_15 {
+
+}
+
+:tstb indir_no_disp_0_7, reg_8_15 is top11=0x13e & indir_no_disp_0_7 & reg_8_15 {
+
+}
+
+:tstb indir_no_disp_0_7, indir_no_disp_8_15 is top11=0x13f & indir_no_disp_0_7 & indir_no_disp_8_15 {
+
+}
+
+:xor reg_0_15, reg_16_20 is top11=0xd4 & reg_0_15 & reg_16_20 {
+
+}
+
+:xor direct_0_15, reg_16_20 is top11=0xd5 & direct_0_15 & reg_16_20 {
+
+}
+
+:xor indirect_0_15, reg_16_20 is top11=0xd6 & indirect_0_15 & reg_16_20 {
+
+}
+
+:xor uint_0_15, reg_16_20 is top11=0xd7 & uint_0_15 & reg_16_20 {
+
+}
+
+:xor reg_0_7, reg_8_15, reg_16_20 is top11=0x140 & reg_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:xor reg_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x141 & reg_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:xor indir_no_disp_0_7, reg_8_15, reg_16_20 is top11=0x142 & indir_no_disp_0_7 & reg_8_15 & reg_16_20 {
+
+}
+
+:xor indir_no_disp_0_7, indir_no_disp_8_15, reg_16_20 is top11=0x143 & indir_no_disp_0_7 & indir_no_disp_8_15 & reg_16_20 {
+
+}
+
+:xor_sti indir_enh_0_7, reg_19_21, reg_22_24, reg_to7_16_18, indir_no_disp_8_15 is top7=0x77 & indir_enh_0_7 & reg_19_21 & reg_22_24 & reg_to7_16_18 & indir_no_disp_8_15 {
+
+}

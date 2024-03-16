@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<processor_spec>
+  <properties>
+  </properties>
+  <programcounter register="PC"/>
+</processor_spec>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language_definitions>
+  <language processor="tms320"
+            endian="little"
+            size="32"
+            variant="default"
+            version="1.1"
+            slafile="TMS320C32.sla"
+            processorspec="TMS320C32.pspec"
+            manualindexfile="../manuals/68000.idx"
+            id="tms320:LE:32:default">
+    <description>TMS320</description>
+    <compiler name="default" spec="TMS320C32.cspec" id="default"/>
+  </language>
+</language_definitions>
