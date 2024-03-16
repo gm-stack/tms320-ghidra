@@ -1,6 +1,6 @@
 <sleigh version="3" bigendian="false" align="1" uniqbase="0x2f80">
 <sourcefiles>
-<sourcefile name="TMS320C32.slaspec" index="0"/>
+<sourcefile name="TMS320C32.sinc" index="0"/>
 <sourcefile name="tms-autogen-edited.sinc" index="1"/>
 </sourcefiles>
 <spaces defaultspace="ram">

@@ -1,0 +1,4 @@
+define endian=big;
+
+@include "TMS320C32.sinc"
+@include "tms-autogen.sinc"

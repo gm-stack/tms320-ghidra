@@ -1,5 +1,3 @@
-define endian=little;
-
 define alignment=1;
 
 define space ram type=ram_space size=4 default;
@@ -129,4 +127,10 @@ prel15: rel is pc_rel_disp_0_15 [ rel=inst_next + (pc_rel_disp_0_15 * 4); ] {
     export *[ram]:4 rel;
 }
 
-@include "tms-autogen-edited.sinc"
+imm23_pc: imm is abs_uint_0_23 [ imm=abs_uint_0_23*4; ] {
+    export *[ram]:4 imm;
+}
+
+direct_addr: imm is direct_0_15 [ imm=direct_0_15 | ((DP & 0x000000FF) << 16) ; ] {
+    export *[ram]:4 imm;
+}
