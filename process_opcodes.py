@@ -238,7 +238,10 @@ for inst in instructions:
     if orig_name in ('ldi', 'ldiC') and 'direct_addr' in argument_specifiers:
         #argument_spec += ", DP "
         pcode += f"""    
-        {dst} = *({src[0]});\n
+        dp_high:4 = (0x000000FF & DP:4) << 16;
+        direct_low:4 = ({src[0]}) & 0x0000FFFF;
+        address:4 = direct_low | dp_high;
+        {dst} = *(address);\n
         
         """
         instruction_fully_implemented = True
